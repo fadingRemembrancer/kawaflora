@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=lower": {
+      "model": "kawaflora:block/cape_leadwort_bottom"
+    },
+    "half=upper": {
+      "model": "kawaflora:block/cape_leadwort_top"
+    }
+  }
+}

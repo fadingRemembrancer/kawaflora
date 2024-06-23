@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "kawaflora",
+  "version": "${version}",
+  "name": "Kawaflora",
+  "description": "Fabric 1.20 flower mod (that hopefully will include flower crowns <3) ",
+  "authors": [
+    "Kawa"
+  ],
+  "contact": {
+    "repo": "https://github.com/fadingRemembrancer/kawaflora"
+  },
+  "license": "MIT",
+  "icon": "assets/kawaflora/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "fabric-datagen": [
+      "org.siscode.kawaflora.DataGen"
+    ],
+    "client": [
+      "org.siscode.kawaflora.KawaFloraClient"
+    ],
+    "main": [
+      "org.siscode.kawaflora.KawaFlora"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
