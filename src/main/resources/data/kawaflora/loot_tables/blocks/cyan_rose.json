@@ -6,13 +6,12 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "kawaflora:forget_me_not"
+          "name": "kawaflora:cyan_rose"
         }
       ],
-      "functions": [
+      "conditions": [
         {
-          "function": "minecraft:set_count",
-          "count": 1
+          "condition": "minecraft:survives_explosion"
         }
       ]
     }

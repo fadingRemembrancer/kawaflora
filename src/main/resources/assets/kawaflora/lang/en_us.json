@@ -1,6 +1,12 @@
 {
   "block.kawaflora.classic_rose": "Classic Rose",
   "block.kawaflora.cyan_rose": "Cyan Rose",
+  "block.kawaflora.white_chrysanthemum": "White Chrysanthemum",
+  "block.kawaflora.pink_chrysanthemum": "Pink Chrysanthemum",
+  "block.kawaflora.yellow_chrysanthemum": "Yellow Chrysanthemum",
+  "block.kawaflora.red_cockscomb": "Red Cockscomb",
+  "block.kawaflora.yellow_cockscomb": "Yellow Cockscomb",
+  "block.kawaflora.purple_cockscomb": "Purple Cockscomb",
   "block.kawaflora.cape_leadwort": "Cape Leadwort",
   "block.kawaflora.forget_me_not": "Forget-Me-Not"
 }

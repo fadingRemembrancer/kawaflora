@@ -1,0 +1,22 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "kawaflora:cape_leadwort",
+          "conditions": [
+            {
+              "condition": "minecraft:block_state_property",
+              "block": "kawaflora:cape_leadwort",
+              "properties": {
+                "half": "lower"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

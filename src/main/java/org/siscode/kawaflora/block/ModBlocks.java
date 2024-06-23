@@ -30,8 +30,48 @@ public class ModBlocks {
     public static final Block LEADWORT = registerBlock("cape_leadwort",
             new TallFlowerBlock(FabricBlockSettings.copyOf(Blocks.LILAC).nonOpaque().noCollision()));
     //FORGETMENOT//
-    public static final Block FORGETNOT = registerBlock("forget_me_not.json",
+    public static final Block FORGETNOT = registerBlock("forget_me_not",
             new TallFlowerBlock(FabricBlockSettings.copyOf(Blocks.LILAC).nonOpaque().noCollision()));
+    //CHRYSANTHEMUMS
+    public static final Block WHITE_CHRYSANTHEMUM = registerBlock("white_chrysanthemum",
+            new FlowerBlock(StatusEffects.SLOW_FALLING,1,
+                    FabricBlockSettings.copyOf(Blocks.POPPY).nonOpaque().noCollision()));
+    public static final Block POTTED_WHITE_CHRYSANTHEMUM  = Registry.register(Registries.BLOCK, new Identifier(KawaFlora.MOD_ID, "potted_white_chrysanthemum"),
+            new FlowerPotBlock(WHITE_CHRYSANTHEMUM , FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).nonOpaque()));
+
+    public static final Block PINK_CHRYSANTHEMUM = registerBlock("pink_chrysanthemum",
+            new FlowerBlock(StatusEffects.SLOW_FALLING,1,
+                    FabricBlockSettings.copyOf(Blocks.POPPY).nonOpaque().noCollision()));
+    public static final Block POTTED_PINK_CHRYSANTHEMUM  = Registry.register(Registries.BLOCK, new Identifier(KawaFlora.MOD_ID, "potted_pink_chrysanthemum"),
+            new FlowerPotBlock(WHITE_CHRYSANTHEMUM , FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).nonOpaque()));
+
+    public static final Block YELLOW_CHRYSANTHEMUM = registerBlock("yellow_chrysanthemum",
+            new FlowerBlock(StatusEffects.SLOW_FALLING,1,
+                    FabricBlockSettings.copyOf(Blocks.POPPY).nonOpaque().noCollision()));
+    public static final Block POTTED_YELLOW_CHRYSANTHEMUM  = Registry.register(Registries.BLOCK, new Identifier(KawaFlora.MOD_ID, "potted_yellow_chrysanthemum"),
+            new FlowerPotBlock(WHITE_CHRYSANTHEMUM , FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).nonOpaque()));
+    //
+
+    // COCKSCOMBS
+
+    public static final Block RED_COCKSCOMB = registerBlock("red_cockscomb",
+            new FlowerBlock(StatusEffects.ABSORPTION,1,
+                    FabricBlockSettings.copyOf(Blocks.POPPY).nonOpaque().noCollision()));
+    public static final Block POTTED_RED_COCKSCOMB  = Registry.register(Registries.BLOCK, new Identifier(KawaFlora.MOD_ID, "potted_red_cockscomb"),
+            new FlowerPotBlock(RED_COCKSCOMB , FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).nonOpaque()));
+
+    public static final Block YELLOW_COCKSCOMB = registerBlock("yellow_cockscomb",
+            new FlowerBlock(StatusEffects.ABSORPTION,1,
+                    FabricBlockSettings.copyOf(Blocks.POPPY).nonOpaque().noCollision()));
+    public static final Block POTTED_YELLOW_COCKSCOMB  = Registry.register(Registries.BLOCK, new Identifier(KawaFlora.MOD_ID, "potted_yellow_cockscomb"),
+            new FlowerPotBlock(YELLOW_COCKSCOMB , FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).nonOpaque()));
+
+    public static final Block PURPLE_COCKSCOMB = registerBlock("purple_cockscomb",
+            new FlowerBlock(StatusEffects.ABSORPTION,1,
+                    FabricBlockSettings.copyOf(Blocks.POPPY).nonOpaque().noCollision()));
+    public static final Block POTTED_PURPLE_COCKSCOMB  = Registry.register(Registries.BLOCK, new Identifier(KawaFlora.MOD_ID, "potted_purple_cockscomb"),
+            new FlowerPotBlock(PURPLE_COCKSCOMB , FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).nonOpaque()));
+    //
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, new Identifier(KawaFlora.MOD_ID, name), block);
