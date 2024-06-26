@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "kawaflora:purple_cockscomb"
+    }
+  ],
+  "result": {
+    "item": "minecraft:purple_dye"
+  }
+}

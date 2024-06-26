@@ -14,10 +14,6 @@ public class MModelProvider extends FabricModelProvider {
 
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
-        blockStateModelGenerator.registerFlowerPotPlant(ModBlocks.CLASSIC_ROSE, ModBlocks.POTTED_ROSE, BlockStateModelGenerator.TintType.NOT_TINTED);
-        blockStateModelGenerator.registerFlowerPotPlant(ModBlocks.CYAN_ROSE, ModBlocks.POTTED_CYAN_ROSE, BlockStateModelGenerator.TintType.NOT_TINTED);
-        blockStateModelGenerator.registerDoubleBlock(ModBlocks.FORGETNOT, BlockStateModelGenerator.TintType.NOT_TINTED);
-        blockStateModelGenerator.registerDoubleBlock(ModBlocks.LEADWORT, BlockStateModelGenerator.TintType.NOT_TINTED);
         /// CHRYSANTHEMUMS
         blockStateModelGenerator.registerFlowerPotPlant(ModBlocks.WHITE_CHRYSANTHEMUM, ModBlocks.POTTED_WHITE_CHRYSANTHEMUM,
                 BlockStateModelGenerator.TintType.NOT_TINTED);
@@ -34,6 +30,30 @@ public class MModelProvider extends FabricModelProvider {
                 BlockStateModelGenerator.TintType.NOT_TINTED);
         blockStateModelGenerator.registerFlowerPotPlant(ModBlocks.PURPLE_COCKSCOMB, ModBlocks.POTTED_PURPLE_COCKSCOMB,
                 BlockStateModelGenerator.TintType.NOT_TINTED);
+        blockStateModelGenerator.registerFlowerPotPlant(ModBlocks.PINK_COCKSCOMB, ModBlocks.POTTED_PINK_COCKSCOMB,
+                BlockStateModelGenerator.TintType.NOT_TINTED);
+        blockStateModelGenerator.registerFlowerPotPlant(ModBlocks.SILVER_COCKSCOMB, ModBlocks.POTTED_SILVER_COCKSCOMB,
+                BlockStateModelGenerator.TintType.NOT_TINTED);
+        ///
+
+        /// MISC
+        blockStateModelGenerator.registerFlowerPotPlant(ModBlocks.BIRD_PARADISE, ModBlocks.POTTED_BIRD_PARADISE,
+                BlockStateModelGenerator.TintType.NOT_TINTED);
+        blockStateModelGenerator.registerFlowerPotPlant(ModBlocks.FALSE_SHAMROCK, ModBlocks.POTTED_FALSE_SHAMROCK,
+                BlockStateModelGenerator.TintType.NOT_TINTED);
+        blockStateModelGenerator.registerFlowerPotPlant(ModBlocks.CLASSIC_ROSE, ModBlocks.POTTED_ROSE,
+                BlockStateModelGenerator.TintType.NOT_TINTED);
+        blockStateModelGenerator.registerFlowerPotPlant(ModBlocks.CYAN_ROSE, ModBlocks.POTTED_CYAN_ROSE,
+                BlockStateModelGenerator.TintType.NOT_TINTED);
+        blockStateModelGenerator.registerFlowerPotPlant(ModBlocks.HIDRANGEA, ModBlocks.POTTED_HIDRANGEA,
+                BlockStateModelGenerator.TintType.NOT_TINTED);
+        blockStateModelGenerator.registerFlowerPotPlant(ModBlocks.WEIGELA, ModBlocks.POTTED_WEIGELA,
+                BlockStateModelGenerator.TintType.NOT_TINTED);
+        blockStateModelGenerator.registerDoubleBlock(ModBlocks.FORGETNOT,
+                BlockStateModelGenerator.TintType.NOT_TINTED);
+        blockStateModelGenerator.registerDoubleBlock(ModBlocks.LEADWORT,
+                BlockStateModelGenerator.TintType.NOT_TINTED);
+
         ///
     }
 

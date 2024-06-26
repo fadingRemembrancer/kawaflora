@@ -71,6 +71,44 @@ public class ModBlocks {
                     FabricBlockSettings.copyOf(Blocks.POPPY).nonOpaque().noCollision()));
     public static final Block POTTED_PURPLE_COCKSCOMB  = Registry.register(Registries.BLOCK, new Identifier(KawaFlora.MOD_ID, "potted_purple_cockscomb"),
             new FlowerPotBlock(PURPLE_COCKSCOMB , FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).nonOpaque()));
+
+    public static final Block PINK_COCKSCOMB = registerBlock("pink_cockscomb",
+            new FlowerBlock(StatusEffects.ABSORPTION,1,
+                    FabricBlockSettings.copyOf(Blocks.POPPY).nonOpaque().noCollision()));
+    public static final Block POTTED_PINK_COCKSCOMB  = Registry.register(Registries.BLOCK, new Identifier(KawaFlora.MOD_ID, "potted_pink_cockscomb"),
+            new FlowerPotBlock(PURPLE_COCKSCOMB , FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).nonOpaque()));
+
+    public static final Block SILVER_COCKSCOMB = registerBlock("silver_cockscomb",
+            new FlowerBlock(StatusEffects.ABSORPTION,1,
+                    FabricBlockSettings.copyOf(Blocks.POPPY).nonOpaque().noCollision()));
+    public static final Block POTTED_SILVER_COCKSCOMB  = Registry.register(Registries.BLOCK, new Identifier(KawaFlora.MOD_ID, "potted_silver_cockscomb"),
+            new FlowerPotBlock(SILVER_COCKSCOMB , FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).nonOpaque()));
+
+
+    //
+
+    // MISC
+    public static final Block BIRD_PARADISE= registerBlock("bird_of_paradise",
+            new FlowerBlock(StatusEffects.ABSORPTION,1,
+                    FabricBlockSettings.copyOf(Blocks.POPPY).nonOpaque().noCollision()));
+    public static final Block POTTED_BIRD_PARADISE  = Registry.register(Registries.BLOCK, new Identifier(KawaFlora.MOD_ID, "potted_bird_paradise"),
+            new FlowerPotBlock(BIRD_PARADISE, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).nonOpaque()));
+    public static final Block FALSE_SHAMROCK= registerBlock("false_shamrock",
+            new FlowerBlock(StatusEffects.ABSORPTION,1,
+                    FabricBlockSettings.copyOf(Blocks.POPPY).nonOpaque().noCollision()));
+    public static final Block POTTED_FALSE_SHAMROCK  = Registry.register(Registries.BLOCK, new Identifier(KawaFlora.MOD_ID, "potted_false_shamrock"),
+            new FlowerPotBlock(FALSE_SHAMROCK, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).nonOpaque()));
+    public static final Block HIDRANGEA= registerBlock("hidrangea",
+            new FlowerBlock(StatusEffects.POISON,1,
+                    FabricBlockSettings.copyOf(Blocks.POPPY).nonOpaque().noCollision()));
+    public static final Block POTTED_HIDRANGEA  = Registry.register(Registries.BLOCK, new Identifier(KawaFlora.MOD_ID, "potted_hidrangea"),
+            new FlowerPotBlock(HIDRANGEA, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).nonOpaque()));
+    public static final Block WEIGELA= registerBlock("weigela",
+            new FlowerBlock(StatusEffects.HEALTH_BOOST,1,
+                    FabricBlockSettings.copyOf(Blocks.POPPY).nonOpaque().noCollision()));
+    public static final Block POTTED_WEIGELA  = Registry.register(Registries.BLOCK, new Identifier(KawaFlora.MOD_ID, "potted_weigela"),
+            new FlowerPotBlock(WEIGELA, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).nonOpaque()));
+
     //
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

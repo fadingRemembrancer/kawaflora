@@ -30,9 +30,22 @@ public class KawaFloraClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.POTTED_YELLOW_COCKSCOMB, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PURPLE_COCKSCOMB, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.POTTED_PURPLE_COCKSCOMB, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PINK_COCKSCOMB, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.POTTED_PINK_COCKSCOMB, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.SILVER_COCKSCOMB, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.POTTED_SILVER_COCKSCOMB, RenderLayer.getCutout());
         //
 
+        //MISC
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.LEADWORT, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.FORGETNOT, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.BIRD_PARADISE, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.POTTED_BIRD_PARADISE, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.FALSE_SHAMROCK, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.POTTED_FALSE_SHAMROCK, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.WEIGELA, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.POTTED_WEIGELA, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.HIDRANGEA, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.POTTED_HIDRANGEA, RenderLayer.getCutout());
     }
 }
