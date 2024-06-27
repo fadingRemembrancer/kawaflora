@@ -2,11 +2,15 @@ package org.siscode.kawaflora.block;
 
 import net.fabricmc.fabric.api.block.v1.FabricBlock;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
+import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents.ModifyEntries;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.*;
 import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemGroup;
+import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 
@@ -43,13 +47,13 @@ public class ModBlocks {
             new FlowerBlock(StatusEffects.SLOW_FALLING,1,
                     FabricBlockSettings.copyOf(Blocks.POPPY).nonOpaque().noCollision()));
     public static final Block POTTED_PINK_CHRYSANTHEMUM  = Registry.register(Registries.BLOCK, new Identifier(KawaFlora.MOD_ID, "potted_pink_chrysanthemum"),
-            new FlowerPotBlock(WHITE_CHRYSANTHEMUM , FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).nonOpaque()));
+            new FlowerPotBlock(PINK_CHRYSANTHEMUM , FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).nonOpaque()));
 
     public static final Block YELLOW_CHRYSANTHEMUM = registerBlock("yellow_chrysanthemum",
             new FlowerBlock(StatusEffects.SLOW_FALLING,1,
                     FabricBlockSettings.copyOf(Blocks.POPPY).nonOpaque().noCollision()));
     public static final Block POTTED_YELLOW_CHRYSANTHEMUM  = Registry.register(Registries.BLOCK, new Identifier(KawaFlora.MOD_ID, "potted_yellow_chrysanthemum"),
-            new FlowerPotBlock(WHITE_CHRYSANTHEMUM , FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).nonOpaque()));
+            new FlowerPotBlock(YELLOW_CHRYSANTHEMUM , FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).nonOpaque()));
     //
 
     // COCKSCOMBS
@@ -76,7 +80,7 @@ public class ModBlocks {
             new FlowerBlock(StatusEffects.ABSORPTION,1,
                     FabricBlockSettings.copyOf(Blocks.POPPY).nonOpaque().noCollision()));
     public static final Block POTTED_PINK_COCKSCOMB  = Registry.register(Registries.BLOCK, new Identifier(KawaFlora.MOD_ID, "potted_pink_cockscomb"),
-            new FlowerPotBlock(PURPLE_COCKSCOMB , FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).nonOpaque()));
+            new FlowerPotBlock(PINK_COCKSCOMB , FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).nonOpaque()));
 
     public static final Block SILVER_COCKSCOMB = registerBlock("silver_cockscomb",
             new FlowerBlock(StatusEffects.ABSORPTION,1,
@@ -108,6 +112,7 @@ public class ModBlocks {
                     FabricBlockSettings.copyOf(Blocks.POPPY).nonOpaque().noCollision()));
     public static final Block POTTED_WEIGELA  = Registry.register(Registries.BLOCK, new Identifier(KawaFlora.MOD_ID, "potted_weigela"),
             new FlowerPotBlock(WEIGELA, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).nonOpaque()));
+    ;
 
     //
     private static Block registerBlock(String name, Block block) {

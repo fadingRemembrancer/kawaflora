@@ -13,10 +13,10 @@ public class ModGenerateFlowers {
         BiomeModifications.addFeature(BiomeSelectors.includeByKey(BiomeKeys.TAIGA,BiomeKeys.OLD_GROWTH_PINE_TAIGA,BiomeKeys.OLD_GROWTH_SPRUCE_TAIGA,BiomeKeys.FLOWER_FOREST,BiomeKeys.FOREST,BiomeKeys.BIRCH_FOREST),
                 GenerationStep.Feature.VEGETAL_DECORATION,ModPlacedFeatures.PINK_CHRYSANTHEMUM_PLACED);
 
-        BiomeModifications.addFeature(BiomeSelectors.includeByKey(BiomeKeys.TAIGA,BiomeKeys.OLD_GROWTH_PINE_TAIGA,BiomeKeys.OLD_GROWTH_SPRUCE_TAIGA),
+        BiomeModifications.addFeature(BiomeSelectors.includeByKey(BiomeKeys.TAIGA,BiomeKeys.OLD_GROWTH_PINE_TAIGA,BiomeKeys.OLD_GROWTH_SPRUCE_TAIGA,BiomeKeys.FLOWER_FOREST),
                 GenerationStep.Feature.VEGETAL_DECORATION,ModPlacedFeatures.WHITE_CHRYSANTHEMUM_PLACED);
 
-        BiomeModifications.addFeature(BiomeSelectors.includeByKey(BiomeKeys.TAIGA,BiomeKeys.OLD_GROWTH_PINE_TAIGA,BiomeKeys.OLD_GROWTH_SPRUCE_TAIGA),
+        BiomeModifications.addFeature(BiomeSelectors.includeByKey(BiomeKeys.TAIGA,BiomeKeys.OLD_GROWTH_PINE_TAIGA,BiomeKeys.OLD_GROWTH_SPRUCE_TAIGA,BiomeKeys.FLOWER_FOREST ),
                 GenerationStep.Feature.VEGETAL_DECORATION,ModPlacedFeatures.YELLOW_CHRYSANTHEMUM_PLACED);
         //COCKSCOMBS
 

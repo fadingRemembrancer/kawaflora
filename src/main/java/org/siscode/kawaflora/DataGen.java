@@ -12,11 +12,9 @@ public class DataGen implements DataGeneratorEntrypoint{
     @Override
     public void onInitializeDataGenerator(FabricDataGenerator fabricDataGenerator){
     FabricDataGenerator.Pack pack = fabricDataGenerator.createPack();
-    pack.addProvider((MBlockTagProvider::new));
     pack.addProvider(MRecipeProvider::new);
     pack.addProvider((MModelProvider::new));
     pack.addProvider(MLootTableProvider::new);
-    pack.addProvider(MItemTagProvider::new);
     pack.addProvider(ModWorldGenerator::new);
     }
 
