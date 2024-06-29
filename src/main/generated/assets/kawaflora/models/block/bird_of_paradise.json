@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "kawaflora:block/bird_of_paradise"
+  }
+}

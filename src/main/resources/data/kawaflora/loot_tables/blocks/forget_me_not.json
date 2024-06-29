@@ -1,0 +1,22 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "kawaflora:forget_me_not",
+          "conditions": [
+            {
+              "condition": "minecraft:block_state_property",
+              "block": "kawaflora:forget_me_not",
+              "properties": {
+                "half": "lower"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
