@@ -1,0 +1,7 @@
+.idea/
+.gradle/
+build/
+out/
+classes/
+run/
+/src/main/generated/assets/minecraft/

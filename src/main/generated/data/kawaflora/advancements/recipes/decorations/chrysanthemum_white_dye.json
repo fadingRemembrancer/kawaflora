@@ -1,0 +1,48 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "kawaflora:chrysanthemum_white_dye"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_white_chrysanthemum": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kawaflora:white_chrysanthemum"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_white_dye": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kawaflora:white_chrysanthemum"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_white_dye",
+      "has_white_chrysanthemum",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "kawaflora:chrysanthemum_white_dye"
+    ]
+  },
+  "sends_telemetry_event": false
+}

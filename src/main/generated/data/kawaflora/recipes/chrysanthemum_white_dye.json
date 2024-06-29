@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "kawaflora:white_chrysanthemum"
+    }
+  ],
+  "result": {
+    "item": "minecraft:white_dye"
+  }
+}

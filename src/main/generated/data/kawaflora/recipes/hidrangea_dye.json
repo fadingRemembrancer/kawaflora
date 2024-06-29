@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "kawaflora:hidrangea"
+    }
+  ],
+  "result": {
+    "count": 2,
+    "item": "minecraft:light_blue_dye"
+  }
+}

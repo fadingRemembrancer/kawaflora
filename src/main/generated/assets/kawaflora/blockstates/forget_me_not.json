@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=lower": {
+      "model": "kawaflora:block/forget_me_not_bottom"
+    },
+    "half=upper": {
+      "model": "kawaflora:block/forget_me_not_top"
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_pink_chrysanthemum": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kawaflora:pink_chrysanthemum"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_pink_dye": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kawaflora:pink_chrysanthemum"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "kawaflora:chrysanthemum_pink_dye"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_pink_dye",
+      "has_pink_chrysanthemum",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "kawaflora:chrysanthemum_pink_dye"
+    ]
+  },
+  "sends_telemetry_event": false
+}
