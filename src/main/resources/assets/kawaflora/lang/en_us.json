@@ -14,5 +14,7 @@
   "block.kawaflora.hidrangea": "Hidrangea",
   "block.kawaflora.weigela": "Weigela",
   "block.kawaflora.bird_of_paradise": "Bird-Of-Paradise",
-  "block.kawaflora.false_shamrock": "False Shamrock"
+  "block.kawaflora.false_shamrock": "False Shamrock",
+  "advancements.husbandry.obtain_classic_rose.description": "Obtain a Classic Rose from a Sniffer",
+  "advancements.husbandry.obtain_classic_rose.title": "Rose-tinted glasses"
 }
