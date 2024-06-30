@@ -1,37 +1,37 @@
 {
-	"schemaVersion": 1,
-	"id": "kawaflora",
-	"version": "${version}",
-	"name": "Kawaflora",
-	"description": "Fabric 1.20 flower mod (that hopefully will include flower crowns <3) ",
-	"authors": [
-		"Kawa",
-		"SugarZoomin"
-	],
-	"contact": {
-		"repo": "https://github.com/fadingRemembrancer/kawaflora"
-	},
-	"license": "MIT",
-	"icon": "assets/kawaflora/icon.png",
-	"environment": "*",
-	"entrypoints": {
-		"main": [
-			"org.siscode.kawaflora.KawaFlora"
-		],
-		"client": [
-			"org.siscode.kawaflora.KawaFloraClient"
-		],
-		"fabric-datagen": [
-			"org.siscode.kawaflora.DataGen"
-		]
-	},
-	"depends": {
-		"fabricloader": ">=0.15.11",
-		"minecraft": "~1.20.6",
-		"java": ">=21",
-		"fabric-api": "*"
-	},
-	"suggests": {
-		"another-mod": "*"
-	}
+  "schemaVersion": 1,
+  "id": "kawaflora",
+  "version": "${version}",
+  "name": "Kawaflora",
+  "description": "Fabric 1.20 flower mod (that hopefully will include flower crowns <3) ",
+  "authors": [
+    "Kawa",
+    "SugarZoomin"
+  ],
+  "contact": {
+  "repo": "https://github.com/fadingRemembrancer/kawaflora"
+  },
+  "license": "MIT",
+  "icon": "assets/kawaflora/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "org.siscode.kawaflora.KawaFlora"
+    ],
+    "client": [
+      "org.siscode.kawaflora.KawaFloraClient"
+    ],
+    "fabric-datagen": [
+      "org.siscode.kawaflora.DataGen"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": "~1.21",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
 }

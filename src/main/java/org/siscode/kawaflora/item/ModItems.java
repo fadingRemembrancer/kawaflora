@@ -16,7 +16,7 @@ import org.siscode.kawaflora.block.ModBlocks;
 
 public class ModItems {
     private static Item registerItem(String name, Item item) {
-        return Registry.register(Registries.ITEM, new Identifier(KawaFlora.MOD_ID, name), item);
+        return Registry.register(Registries.ITEM, Identifier.of(KawaFlora.MOD_ID, name), item);
     }
     public static void addToItemGroup(FabricItemGroupEntries entries){
         entries.add(ModBlocks.CLASSIC_ROSE);

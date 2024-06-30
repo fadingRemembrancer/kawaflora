@@ -21,13 +21,15 @@ public class MLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.PURPLE_COCKSCOMB);
         addDrop(ModBlocks.PINK_COCKSCOMB);
         addDrop(ModBlocks.SILVER_COCKSCOMB);
+        addDrop(ModBlocks.YELLOW_COCKSCOMB);
+        addDrop(ModBlocks.SILVER_COCKSCOMB);
+        //
         addDrop(ModBlocks.WEIGELA);
         addDrop(ModBlocks.HIDRANGEA);
         //
         addDrop(ModBlocks.PINK_CHRYSANTHEMUM);
         addDrop(ModBlocks.YELLOW_CHRYSANTHEMUM);
         addDrop(ModBlocks.WHITE_CHRYSANTHEMUM);
-        addDrop(ModBlocks.SILVER_COCKSCOMB);
         //
         addDrop(ModBlocks.BIRD_PARADISE);
         addDrop(ModBlocks.FALSE_SHAMROCK);

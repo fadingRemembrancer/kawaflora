@@ -1,6 +1,7 @@
 package org.siscode.kawaflora;
 
 import net.fabricmc.api.ModInitializer;
+import net.minecraft.util.Identifier;
 import org.siscode.kawaflora.block.ModBlocks;
 import org.siscode.kawaflora.item.ModItems;
 import org.siscode.world.gen.ModWorldGeneration;
@@ -11,7 +12,6 @@ public class KawaFlora implements ModInitializer {
 
     public static final String MOD_ID = "kawaflora";
     public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
-
     @Override
     public void onInitialize() {
         AddToItemGroup.registerItemGroups();

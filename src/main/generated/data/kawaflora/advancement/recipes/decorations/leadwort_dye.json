@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_blue_dye": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:blue_dye"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_cape_leadwort": {
+      "conditions": {
+        "items": [
+          {
+            "items": "kawaflora:cape_leadwort"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "kawaflora:leadwort_dye"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_blue_dye",
+      "has_cape_leadwort"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "kawaflora:leadwort_dye"
+    ]
+  }
+}
