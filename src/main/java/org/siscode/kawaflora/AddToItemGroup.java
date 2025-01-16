@@ -6,6 +6,8 @@ import org.siscode.kawaflora.block.ModBlocks;
 
 public class AddToItemGroup {
     public static void registerItemGroups(){
+
+        // misc / not grouped / im bald
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL).register(entries -> entries.add(ModBlocks.BIRD_PARADISE));
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL).register(entries -> entries.add(ModBlocks.FALSE_SHAMROCK));
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL).register(entries -> entries.add(ModBlocks.HIDRANGEA));

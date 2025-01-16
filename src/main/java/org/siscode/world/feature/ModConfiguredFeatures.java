@@ -34,7 +34,7 @@ public class ModConfiguredFeatures {
 
     public static final RegistryKey<ConfiguredFeature<?, ?>> CLASSIC_ROSE = registerKey("classic_rose_flower");
 
-    public static final RegistryKey<ConfiguredFeature<?, ?>> FALSE_SHAMROCK = registerKey("false_shamrock_flower");
+    public static final RegistryKey<ConfiguredFeature<?, ?>> SHAMROCK = registerKey("false_shamrock_flower");
 
     public static final RegistryKey<ConfiguredFeature<?, ?>> BIRD_PARADISE = registerKey("bird_paradise_flower");
 
@@ -49,7 +49,7 @@ public class ModConfiguredFeatures {
                 128, 20, 5, PlacedFeatures.createEntry(Feature.SIMPLE_BLOCK, new SimpleBlockFeatureConfig(BlockStateProvider.of(ModBlocks.BIRD_PARADISE)))
         ));
 
-        register(context, FALSE_SHAMROCK, Feature.FLOWER, new RandomPatchFeatureConfig(
+        register(context, SHAMROCK, Feature.FLOWER, new RandomPatchFeatureConfig(
                 128, 20, 5, PlacedFeatures.createEntry(Feature.SIMPLE_BLOCK, new SimpleBlockFeatureConfig(BlockStateProvider.of(ModBlocks.FALSE_SHAMROCK)))
         ));
 

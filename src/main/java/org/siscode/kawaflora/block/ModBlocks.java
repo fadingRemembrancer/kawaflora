@@ -92,6 +92,7 @@ public class ModBlocks {
     //
 
     // MISC
+
     public static final Block BIRD_PARADISE= registerBlock("bird_of_paradise",
             new FlowerBlock(StatusEffects.ABSORPTION,1,
                     FabricBlockSettings.copyOf(Blocks.POPPY).nonOpaque().noCollision()));
@@ -112,7 +113,6 @@ public class ModBlocks {
                     FabricBlockSettings.copyOf(Blocks.POPPY).nonOpaque().noCollision()));
     public static final Block POTTED_WEIGELA  = Registry.register(Registries.BLOCK, new Identifier(KawaFlora.MOD_ID, "potted_weigela"),
             new FlowerPotBlock(WEIGELA, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).nonOpaque()));
-    ;
 
     //
     private static Block registerBlock(String name, Block block) {

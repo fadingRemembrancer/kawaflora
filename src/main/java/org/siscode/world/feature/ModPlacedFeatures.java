@@ -94,7 +94,7 @@ public class ModPlacedFeatures {
         register(context, CLASSIC_ROSE_PLACED, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.CLASSIC_ROSE),
                 VegetationPlacedFeatures.treeModifiersWithWouldSurvive(RarityFilterPlacementModifier.of(16), ModBlocks.CLASSIC_ROSE));
 
-        register(context, FALSE_SHAMROCK_PLACED, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.FALSE_SHAMROCK),
+        register(context, FALSE_SHAMROCK_PLACED, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.SHAMROCK),
                 VegetationPlacedFeatures.treeModifiersWithWouldSurvive(RarityFilterPlacementModifier.of(12), ModBlocks.FALSE_SHAMROCK));
 
         register(context, BIRD_PARADISE_PLACED, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.BIRD_PARADISE),
